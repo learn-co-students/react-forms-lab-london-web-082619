@@ -2,7 +2,7 @@ import React from "react";
 
 class TwitterMessage extends React.Component {
   state = {
-    message: "Test"
+    message: ""
   }
 
   handleMessage = (event) => {
